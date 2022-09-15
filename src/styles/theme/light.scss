@@ -1,0 +1,37 @@
+.light{
+  // 页面的背景底色
+  --page-bg: #eff4fb;
+  // 页面各模块区域背景色
+  --page-area-bg: #ffffff;
+  // 一级文字颜色
+  --text-color-level1: #333333;
+  // 二级文字颜色
+  --text-color-level2:#bae8ff;
+  // 常规文字颜色
+  --text-color-regular: #666665;
+  // 禁用文字颜色
+  --text-color-disabled: #a9a9a8;
+  // 表格表头文字颜色
+  --text-color-table-head: #333333;
+
+  // 输入框背景色
+  --inner-bg: #ffffff;
+  // 表单选项下拉hover背景色
+  --inner-hover-bg: #f5f7fa;
+
+  // 表格背景颜色
+  --table-bg: #ffffff;
+  --table-bg-striped: #fafafa;
+  --table-header-bg: #ffffff;
+  --table-row-hover: #f6f6f6;
+
+  // 边框颜色
+  --border-color: #dcdfe6;
+  --border-color-active: #3cadc2;
+
+  // 分页样式
+  --pagination-bg: #f0f2f5;
+
+  // 弹窗渐变标题背景
+  --dialog-header-bg: #ffffff;
+}
