@@ -73,6 +73,14 @@ const routes: Array<RouteRecordRaw> = [{
         title: '3D柱状图',
         code: 'H1007'
       }
+    },{
+      path: '/funnel',
+      name: "Funnel",
+      component: ()=>import('@/views/funnel/funnel.vue'),
+      meta:{
+        title: '漏斗图',
+        code: 'H1008'
+      }
     },
   ]
 }]

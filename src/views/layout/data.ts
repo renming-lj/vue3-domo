@@ -34,6 +34,10 @@ export const routes: Array<SideRoute> = [ {
     title: '路径图',
     path: '/lines',
 }, {
+    code: 'H1008',
+    title: '漏斗图',
+    path: '/funnel',
+}, {
     code: 'H1007',
     title: '3D柱状图',
     path: '/bar3d',
