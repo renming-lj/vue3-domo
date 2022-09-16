@@ -81,6 +81,14 @@ const routes: Array<RouteRecordRaw> = [{
         title: '漏斗图',
         code: 'H1008'
       }
+    },{
+      path: '/table',
+      name: "Table",
+      component: ()=>import('@/views/table/table.vue'),
+      meta:{
+        title: '可编辑table',
+        code: 'H1009'
+      }
     },
   ]
 }]

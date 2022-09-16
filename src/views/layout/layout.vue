@@ -10,7 +10,7 @@
   <div class='layout'>
     <el-container style="height: 100vh">
       <el-header class="header" style="padding: 0;">
-        <div class="logo" @click="changeCollapse">Ecahrts</div>
+        <div class="logo" @click="changeCollapse">Vue3公共组件封装使用</div>
         <div class="header-right">
           <div style="margin-right:10px;cursor: pointer"
                v-i18n="'hello'"
@@ -28,7 +28,7 @@
           <el-icon :size="20"><bell /></el-icon>
           <div class="user-info">
             <div class="portrait"></div>
-            <div>Echarts</div>
+            <div>Vue3公共组件封装使用</div>
           </div>
         </div>
         <div class="header-right-folding">
@@ -36,7 +36,7 @@
             <div class="portrait"></div>
             <template #dropdown>
               <el-dropdown-menu>
-                <div style="text-align: center;">Echarts</div>
+                <div style="text-align: center;">Vue3公共组件封装使用</div>
                 <el-dropdown-item>
                   <el-icon :size="20" ><search /></el-icon>
                   <span>搜索</span>
