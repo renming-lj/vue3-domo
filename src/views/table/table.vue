@@ -9,6 +9,7 @@
   <div class='home'>
     <!-- 使用组件 -->
     <Table :data="tableData" @submit="editData"></Table>
+    <p>注:语文、数学、英语可修改</p>
   </div>
 </template>
 
