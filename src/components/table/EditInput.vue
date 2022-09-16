@@ -26,14 +26,18 @@ const props = defineProps({
 });
 
 const inputValue = ref(props.value);
+// 设置值
 const onInput = (e) => {
   inputValue.value = e.target.value.trim();
 }
 
+// 点击时执行
 const onClick = (e) => {
+  // 阻止冒泡
   e.stopPropagation();
 }
 
+// 失去焦点
 const onBlur = () => {
   props.setValue(inputValue.value)
 }

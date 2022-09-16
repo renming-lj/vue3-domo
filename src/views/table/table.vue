@@ -18,6 +18,7 @@
 import Table from '@/components/table/table.vue'
 import {ref} from "vue";
 
+// 数据
 const tableData = ref({
   tHead: [
     {
@@ -78,6 +79,7 @@ const tableData = ref({
   ]
 })
 
+// 子级触发事件
 const editData = ({index, key, value, text}, removeInput) => {
   if (tableData.value.tBody[index][key] != value) {
     const cfm = window.confirm(`你确定要将数据下标为 【${index}】项的【${text}】字段修改为【${value}】吗？`);
