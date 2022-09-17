@@ -25,7 +25,6 @@ const options = ref({
     "width": 500,
     "height": 400,
     "zIndex": 6,
-    "backgroundColor": ""
   },
   "color": ["rgba(245, 166, 35, 1)", "rgba(19, 173, 255, 1)"],
   "title": {
@@ -104,7 +103,7 @@ const options = ref({
   legend: {
     icon: 'circle',
     bottom: '10',
-    textStyle: { fontSize: 14, color: '#fff' },
+    textStyle: { fontSize: 14, color: '#6E7079' },
     itemGap: 20,
     itemWidth: 14,
     data: ['GPS', 'BDS', 'GLONASS', 'Galileo']
